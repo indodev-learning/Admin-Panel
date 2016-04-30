@@ -1,0 +1,72 @@
+[
+    {
+        "fieldInput": "id:increments",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": true,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "fieldInput": "title:string,20",
+        "htmlType": "text",
+        "validations": "required",
+        "searchable": true,
+        "inForm": true,
+        "inIndex": true
+    },
+    {
+        "fieldInput": "email:string",
+        "htmlType": "email",
+        "searchable": true
+    },
+    {
+        "fieldInput": "post_date:dateTime",
+        "htmlType": "date"
+    },
+    {
+        "fieldInput": "words:integer",
+        "htmlType": "number"
+    },
+    {
+        "fieldInput": "attachment:string",
+        "htmlType": "file"
+    },
+    {
+        "fieldInput": "password:string",
+        "htmlType": "password",
+        "inIndex": false
+    },
+    {
+        "fieldInput": "post_type:string",
+        "htmlType": "select:Type1,Type2,Type3,Type4",
+        "searchable": true
+    },
+    {
+        "fieldInput": "post_day:enum",
+        "htmlType": "enum:Mon,Tue,Wed,Thu,Fri,Sat,Sun",
+        "searchable": true
+    },
+    {
+        "fieldInput": "post_author_gender:string",
+        "htmlType": "radio:Male,Female"
+    },
+    {
+        "fieldInput": "private_post:string",
+        "htmlType": "checkbox:Yes"
+    },
+    {
+        "fieldInput": "body:text",
+        "htmlType": "textarea"
+    },
+    {
+        "fieldInput": "is_active:boolean",
+        "htmlType": "checkbox:1",
+        "validations": "",
+        "searchable": false,
+        "fillable": true,
+        "primary": false
+    }
+]
