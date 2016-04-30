@@ -10,6 +10,4 @@
 */
 
 
-Route::resource('employees', 'EmployeeAPIController');
-
 Route::resource('todos', 'TodoAPIController');
